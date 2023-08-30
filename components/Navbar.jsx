@@ -26,8 +26,10 @@ export default function () {
           <Link href="/" style={{ textDecoration: "none", color: "white" }}>
             <li className={styles.listItem}>Homepage</li>
           </Link>
+          <Link href="/" style={{ textDecoration: "none", color: "white" }}>
+            <li className={styles.listItem}>Products</li>
+          </Link>
 
-          <li className={styles.listItem}>Products</li>
           <li className={styles.listItem}>Menu</li>
           <Image src="/img/logo.png" width="200" height="69"></Image>
           <li className={styles.listItem}>Events</li>

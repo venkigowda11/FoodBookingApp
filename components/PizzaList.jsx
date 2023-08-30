@@ -14,9 +14,9 @@ export default function PizzaList({ pizzaList }) {
         sublime!
       </p>
       <div className={styles.wrapper}>
-        {pizzaList.map((pizza) => {
-          return <PizzaCard key={pizza._id} pizza={pizza} />;
-        })}
+        {pizzaList.map((pizza) => (
+          <PizzaCard key={pizza._id} pizza={pizza} />
+        ))}
       </div>
     </div>
   );
